@@ -47,4 +47,5 @@ func main() {
 	end := time.Now()
 	timeSpent := end.Sub(start)
 	fmt.Printf("Вітаю! Ти впорався(лась) за %v!", timeSpent)
+	time.Sleep(5 * time.Second)
 }
