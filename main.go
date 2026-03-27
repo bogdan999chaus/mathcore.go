@@ -37,7 +37,7 @@ func main() {
 			users = append(users, u)
 		case "2":
 			for _, u := range users {
-				fmt.Printf("Id: %v Name: %s Time: %v",
+				fmt.Printf("Id: %v Name: %s Time: %v\n",
 					u.Id, u.Name, u.Time)
 
 			}
